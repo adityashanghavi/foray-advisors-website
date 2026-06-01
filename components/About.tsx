@@ -1,4 +1,4 @@
-import Image from 'next/image'
+const basePath = process.env.NODE_ENV === 'production' ? '/foray-advisors-website' : ''
 
 export default function About() {
   return (
@@ -7,13 +7,11 @@ export default function About() {
         <h2 className="text-4xl font-bold text-center mb-16">About</h2>
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-shrink-0">
-            <div className="relative w-56 h-56 rounded-full overflow-hidden shadow-lg ring-4 ring-blue-100">
-              <Image
-                src="/profile.jpg"
+            <div className="w-56 h-56 rounded-full overflow-hidden shadow-lg ring-4 ring-blue-100">
+              <img
+                src={`${basePath}/profile.jpg`}
                 alt="Profile photo"
-                fill
-                className="object-cover"
-                priority
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
