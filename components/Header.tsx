@@ -14,6 +14,11 @@ export default function Header() {
             </a>
           </li>
           <li>
+            <a href="#about" className="hover:text-primary transition">
+              About
+            </a>
+          </li>
+          <li>
             <a href="#services" className="hover:text-primary transition">
               Services
             </a>
