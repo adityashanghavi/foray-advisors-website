@@ -4,6 +4,9 @@ export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
+        <p className="text-2xl font-semibold text-primary tracking-wide uppercase mb-4">
+          Foray Advisors
+        </p>
         <h2 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
           Expert Advisory Services
         </h2>
