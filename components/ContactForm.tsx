@@ -27,7 +27,7 @@ export default function ContactForm() {
     try {
       // Replace with your actual form endpoint (e.g., Formspree, Netlify Forms, or your API)
       // Example: const response = await fetch('https://formspree.io/f/YOUR_ID', {
-      const response = await fetch('https://formspree.io/f/xdkqqzgl', {
+      const response = await fetch('https://formspree.io/ajay@forayadvisors.in', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
