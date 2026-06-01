@@ -14,7 +14,7 @@ export default function Hero() {
           href="#contact"
           className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-secondary transition text-lg"
         >
-          Get Started
+          Get In Touch
         </a>
       </div>
     </section>
