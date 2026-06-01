@@ -9,7 +9,7 @@ export default function About() {
           <div className="flex-shrink-0">
             <div className="relative w-56 h-56 rounded-full overflow-hidden shadow-lg ring-4 ring-blue-100">
               <Image
-                src="/profile photo.jpg"
+                src="/profile.jpg"
                 alt="Profile photo"
                 fill
                 className="object-cover"
